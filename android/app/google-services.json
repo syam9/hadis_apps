@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "239978352637",
+    "project_id": "hadis-app-login",
+    "storage_bucket": "hadis-app-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239978352637:android:1bed17c1b1886abac01394",
+        "android_client_info": {
+          "package_name": "com.syamdotnetlify.hadis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239978352637-apt551vahl371lk1aruhleif5u31tblf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALqFr929P-d-xKtNP9avLP2_C8P6KlMlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239978352637-apt551vahl371lk1aruhleif5u31tblf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

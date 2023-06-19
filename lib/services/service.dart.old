@@ -1,0 +1,26 @@
+import "dart:core";
+import "package:http/http.dart" as http;
+import "package:hadis/screens/main_screen/models/homemodel.dart";
+
+
+class Services{
+    static var client = http.Client(); 
+    
+    static Future<List<HomeModel>> fetchHome() async {
+        var response = await client.get(Uri.parse("https://api.hadith.sutanlab.id/books"));
+
+        var abc;
+        if (response.statusCode == 200){
+            var jsonString = response.body;
+            abc =  homeFromJson(jsonString);
+            print(abc);
+
+        }else{
+            abc = null;
+
+        }
+
+        return abc;
+    }
+}
+    
